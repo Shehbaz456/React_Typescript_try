@@ -2,6 +2,7 @@ import OptionalUserCard from "./components/01_RequiredOptionalProps.tsx"
 // import GreetA from "./components/02_DefaultProps.tsx"
 // import { Pannel } from "./components/03_ChildrenReactNode.tsx"
 import Badge from "./components/04_AsContsVariable.tsx";
+import ComponentButton from "./components/05_ComponentProps.tsx";
 
 function App() {
 
@@ -28,6 +29,8 @@ function App() {
     </ul>
     </div>
   </Pannel> */}
+
+    <ComponentButton variant="primary" onClick={()=>alert("clicked")} >Text</ComponentButton>
 
     </>
   )
