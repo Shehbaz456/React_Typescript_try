@@ -3,6 +3,7 @@ import OptionalUserCard from "./components/01_RequiredOptionalProps.tsx"
 // import { Pannel } from "./components/03_ChildrenReactNode.tsx"
 import Badge from "./components/04_AsContsVariable.tsx";
 import ComponentButton from "./components/05_ComponentProps.tsx";
+import TypedUseReducer from "./components/08_TypedUseReducer.tsx";
 
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
   </Pannel> */}
 
     <ComponentButton variant="primary" onClick={()=>alert("clicked")} >Text</ComponentButton>
-
+    <TypedUseReducer/>
     </>
   )
 }
